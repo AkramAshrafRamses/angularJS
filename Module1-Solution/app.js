@@ -14,15 +14,15 @@ function LCController($scope) {
      // $scope.output3 = itemsSize;
 
     if(itemsSize===0){
-      document.getElementById('output').style.color = "green";
+      
       $scope.output = "Please Enter Data First";
     }
     if(itemsSize>0 && itemsSize<=3){
-      document.getElementById('output').style.color = "red";
+      
       $scope.output = "Enjoy!";
     }
     if(itemsSize>3){
-      document.getElementById('output').style.color = "red";
+      
       $scope.output = "Too Much!";
     }
 
