@@ -1,0 +1,13 @@
+<div id="id2">
+  <div class="card" ng-repeat="item in menuItem.foundItem">
+    <div class="card-body">
+      <p class="card-text">
+      <h5> Name: {{item.name}} </h5>
+      <h5> Short Name: {{item.short_name}} </h5>
+      <h5> Description: {{item.description}} </h5>
+      <br>
+      </p>
+       <button class="btn btn-primary" ng-click="menuItem.onRemove({index: $index});">Don't want this one!</button>
+    </div>
+  </div>
+</div>
